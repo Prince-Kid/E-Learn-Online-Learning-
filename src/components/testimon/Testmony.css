@@ -1,0 +1,66 @@
+.testimony{
+
+    text-align: center;
+}
+.testimony .content{
+    
+    padding: px;
+}
+.testimony .content .items{
+
+    padding: 40px;
+    transition: 0.5s;
+}
+.testimony .content .items .box{
+ 
+    padding: 0px;
+    margin-bottom: 10px;
+}
+.testimony .content .items .box .img{
+position: relative;
+
+}
+.testimony .content .items .box .img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.testimony .items .img i{
+    background-color: #1eb2a6;
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+.testimony .name h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.testimony .content .items p{
+ text-align: left;
+ color: gray;
+ transition: 0.5s;
+}
+.testimony .name span{
+   color: #1eb2a6;
+}
+
+.testimony .items:hover{
+    background-color: #1eb2a6;
+    transition: 0.5s;
+    color: #fff;
+    cursor: pointer;
+}
+.testimony .items:hover span,
+.testimony .items:hover p{
+    color: #fff;
+}
+.testimony  .items:hover i{
+  background-color: #fff;
+    color: #1eb2a6;
+
+}

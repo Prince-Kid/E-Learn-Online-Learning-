@@ -1,0 +1,33 @@
+.blogs {
+    text-align: center;
+}
+.blogs .text{
+    padding: 40px 30px;
+}
+.blogs .items .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text .admin{
+    text-transform: uppercase;
+    
+}
+.blogs .text  h1{
+font-weight: 500;
+font-size: 22px;
+line-height: 30px;
+margin: 20px 0;
+transition: 0.5s;
+text-align: left;
+}
+.blogs p{
+    color: gray;
+    text-align: left;
+}
+.blogs h1:hover{
+   color: #1eb2a6;
+}
+.blogs span:nth-child(3) label{
+    color: #1ab2a6;
+}

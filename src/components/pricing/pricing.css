@@ -1,0 +1,34 @@
+.pricing{
+    text-align: center;
+}
+.pricing .items{
+    margin-top: 20px;
+    padding: 40px 20px;
+}
+.pricing .items .title{
+
+    text-align: center;
+    margin-bottom: 30px;
+}
+.pricing .items .title h2{
+    font-size: 18px;
+}
+.pricing .items .price{
+    text-align: center;
+     margin-bottom: 45px;
+}
+.price h1{
+    color: #1eb2a6;
+    font-size: 50px;
+    text-align: center;
+}
+.price span{
+    color:black;
+    font-size: 24px;
+    margin-right: 5px;
+}
+.items p{
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
