@@ -7,7 +7,7 @@ const map = 'https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d904726.613173
     <section className='contact'>
         <div className="container shadow flexSB">
              <div className="left row">
-               <iframe src={map}></iframe>
+               <iframe src={map} title='kidi'></iframe>
              </div>
              <div className="right row">
                 <h1>Contact Us</h1>
